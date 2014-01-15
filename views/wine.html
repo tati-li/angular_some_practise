@@ -1,0 +1,10 @@
+<div class="" ng-controller="DetailCtrl" >
+    <p>ID: <input type="text" size="50" value="{{wines_list[wineNumber].wine.id}}" readonly></p>
+    <p>Name: <input type="text" size="50" value="{{wines_list[wineNumber].wine.name}}" ></p>
+    <p>Grapes: <input type="text" size="50" value="{{wines_list[wineNumber].wine.grapes}}" ></p>
+    <p>Country: <input type="text" size="50" value="{{wines_list[wineNumber].wine.country}}" ></p>
+    <p>Region: <input type="text" size="50" value="{{wines_list[wineNumber].wine.region}}" ></p>
+    <p>Year: <input type="text" size="50" value="{{wines_list[wineNumber].wine.year}}" ></p>
+    <p>description:</p><textarea cols="100" rows="3">{{wines_list[wineNumber].wine.description}}</textarea>
+    <img src="pics/{{wines_list[wineNumber].wine.picture}}" />
+</div>
